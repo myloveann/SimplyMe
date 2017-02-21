@@ -8,3 +8,17 @@
 
 </body>
 </html>
+<script>
+    window.onload=function () {
+        'use strict'
+        var xiaoming={
+            name:'小明',
+            birth:1994,
+            age:function () {
+                var y=new Date().getFullYear();
+                return y-this.birth;
+            }
+        };
+            alert(xiaoming.age());
+    }
+</script>

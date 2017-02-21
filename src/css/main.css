@@ -1,0 +1,44 @@
+body{
+    font: 20px "Inconsolata";
+    line-height:1.8;
+    color: #f5f6f7;
+}
+.affix{
+    width:100%;
+}
+.bg-1{
+    background-color:#1abc9c; /* Green*/
+    color:#fff;
+}
+.bg-2{
+    background-color:#474e5d; /* Dark Blue*/
+    color:#fff;
+}
+.bg-3{
+    background-color: #ffffff;
+    color: #555;
+}
+.bg-4{
+    background-color: #2f2f2f;
+    color: #fff;
+}
+.container-fluid{
+    padding-top:70px;
+    padding-bottom:70px;
+}
+.container-fluid p{
+    padding: 0 50px;
+}
+p{
+    font-size:16px;
+}
+a{
+    color: #fff;
+    list-style: none;
+}
+.bg-2 .glyphicon{
+    position: static;
+}
+#main_row .col-sm-4{
+    position: static;
+}

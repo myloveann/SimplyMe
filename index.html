@@ -5,6 +5,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata&text=%c2%a1Hola!">
+    <link rel="stylesheet" href="src/css/main.css">
     <script src="https://ajax.googleapis.bootcss.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <title>Demo</title>
@@ -13,7 +15,81 @@
 <!--[if lte IE8]>
 <p class="browserupgrade">您的浏览器版本过低，请点击 <a href="http://www.browsehappy.com">这里</a>进行更新，以获取最佳的用户体验。</p>
 <![endif]-->
+<nav class="navbar navbar-default" style="margin-bottom: 0;" data-spy="affix" style="z-index: 100">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Me</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right" >
+                <li><a href="#who">WHO</a></li>
+                <li><a href="#what">WHAT</a></li>
+                <li><a href="#where">WHERE</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
+
+<div class="container-fluid bg-1 text-center" id="who">
+    <h3>Who Am I?</h3>
+    <img src="src/img/mypho.jpg" alt="Donald Chen" class="img-circle">
+    <h3>I' am Donald Chen</h3>
+    <p>
+        Hello,everyone!I am Donld Chen,you also can call me 永煌.As a Junior ,I will graduate from Guangdong Industry Polytechnic in June 2017.
+        I major in the technology of software,now I want to find a job as a Front-end Engineer.If you are interest in me or want to communicate with me,
+        you can send message to me.And my tel is <em>17688438741</em> and my e-mail is <em> <a href="#">rj14108@163.com</a> </em>
+    </p>
+</div>
+<div class="container-fluid bg-2 text-center" id="what">
+    <h3>What Am I?</h3>
+    <p class="text-center">
+        I am a positive and outgoing boy.During my school time,I study hard and got scholarship.Though I am not good at what I major in,I never give up.
+        I like reading very much,I would like to read a book per week.Besides I like traveling and  willing to find decious foods in the new place when
+        I first been.
+    </p>
+    <a href="#" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-search"></span> Find More</a>
+</div>
+<div class="container-fluid bg-3 text-center" id="where" >
+    <h3>Where To Find Me?</h3>
+    <div class="row" id="main_row">
+        <div class="col-sm-4">
+            <h4 class="title">My Hometown</h4>
+            <p>
+                    Located in the eastest of Guangdong Province,ChaoZhou is a beautiful city with many places of interest.
+                The people in Chaozhou is warm-hearted and most of them are good at cooking,if you have chance to visit Chaozhou city,
+                Please dont forget to enjoy the Xiangzi Bridge ,which is one of the oldest bridege in China.Tasting the Beef meatball
+                and taking a cup of kongfu tea.
+            </p>
+            <img src="src/img/bg031.jpg" alt="Descibe me" class="img-thumbnail img-responsive " style="width: 100%;" >
+        </div>
+        <div class="col-sm-4">
+            <h4 class="title">Middle School</h4>
+            <p>
+                    Anbu Middle School is my mother school,I met a lots of teachers who influence me deeply.Some of them are kind,some of them
+                are strict,others are funny.Besides,I form the habits of reading and thinking,The playground to the north, the hill to the east,
+                and the existing building to the west are three different surroundings.
+            </p>
+            <img src="src/img/anbu_middleschool.jpg" alt="Descibe me" class="img-thumbnail img-responsive " style="width: 100%;" >
+        </div>
+        <div class="col-sm-4">
+            <h4 class="title"> College</h4>
+            <p>
+                When I first stepped into the gate of my college,I knew a new life was coming,and that must be the most wonderful days in my life.
+                You may feel that college life is boring. We do not know how to deal with the plenty of spare time. But I think the college life will become wonderful as long as you make it meaningful.
+            </p>
+            <img src="src/img/gdqy.jpg" alt="My college" class="img-thumbnail img-responsive " style="width: 100%;" >
+        </div>
+    </div>
+</div>
+<footer class="container-fluid bg-4 text-center">
+    <p>Please click here to visit more <a href="#">GO</a></p>
+</footer>
 </body>
 <script>
     window.onload=function(){
